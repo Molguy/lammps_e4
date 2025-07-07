@@ -14,7 +14,7 @@ para la temperatura de 0.7:
 .
 
     xmgrace tei_0.7.out && xmgrace prico_0.7.out
-.
+
 para la temperatura de 1.0:
 
     mpirun -np 4 lmp_mpi < inLV_1.0.lj

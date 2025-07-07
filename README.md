@@ -7,13 +7,13 @@ para la temperatura de 0.7:
     mpirun -np 4 lmp_mpi < inLV_0.7.lj
 . 
 
-    ovito < dump_.7.nvt
+    ovito < dump_0.7.nvt
 .
 
-    tail -504 densityprofx_.7.out | xmgrace -block - -bxy 2:4
+    tail -504 densityprofx_0.7.out | xmgrace -block - -bxy 2:4
 .
 
-    xmgrace tei_.7.out && xmgrace prico_.7.out
+    xmgrace tei_0.7.out && xmgrace prico_0.7.out
 .
 para la temperatura de 1.0:
 
